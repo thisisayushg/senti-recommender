@@ -14,6 +14,10 @@ With the advancement in technology, it is imperative for Ebuss to grow quickly i
 
 As a senior ML Engineer, you are asked to build a model that will improve the recommendations given to the users given their past reviews and ratings. 
 
+<br/>
+
+### Deployment and Source
 
 The model was deployed on https://senti-recommender.herokuapp.com/
+
 The source code can be found at https://github.com/thisisayushg/senti-recommender
