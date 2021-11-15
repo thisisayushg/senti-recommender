@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
     document.getElementsByClassName("loader")[0].removeAttribute("hidden");
-    xhr.open('GET', 'http://127.0.0.1:5000/users')
+    xhr.open('GET', 'https://senti-recommender.herokuapp.com/users')
     xhr.send()
 
 
@@ -86,6 +86,6 @@ function getrecommendation() {
             .getElementsByClassName("loader")[0]
             .setAttribute("hidden", true);
     };
-    xhr.open("GET", `http://127.0.0.1:5000/predict/${input.value}`);
+    xhr.open("GET", `https://senti-recommender.herokuapp.com/predict/${input.value}`);
     xhr.send();
 }
